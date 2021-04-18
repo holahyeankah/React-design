@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+  min-width:30%;
+  max-height:30%;
+  display:flex;
+  align-items:center;
+  flex-direction:column
+}
+.header{
+  color:rgb(192, 20, 149);
+  font-size: 30px;
+  margin-top:1px;
+  margin-left:2px
+}
+
+.image-container{
+  display:flex;
+  justify-content: space-between;
+  width:30%;
+  margin-top: 5px;
+  margin-bottom:0px;
+  height:10%;
+}
+.image-red{
+  margin-top:5px
+}
+.image-blue{
+  margin-right: 2px;
+
+}
+.header-option{
+  background:rgb(192, 20, 149);
+  display:flex;
+  justify-content:space-around;
+  width:30%;
+  border-radius: 4%;
+  height:85px;
+  margin:0px 
+}
+
+.logo-1{
+  background:white;
+  border-radius: 40%;
+  text-align:center;
+  height: 25px;
+  padding:1px;
+  margin-top:7px;
+  color:rgb(192, 20, 149);
+}
+.logo-2{
+  background:white;
+  border-radius: 40%;
+  text-align:center;
+  height: 25px;
+  padding:1px;
+  margin-top:7px;
+  color:blue
+
+}
+.option{
+  background:rgb(232, 222, 222);
+  margin-top:5px;
+  width:30%
+}
+
+.select{
+  color:rgb(21, 21, 162);
+  text-align:start;
+  font-weight:bold;
+  margin-left:8px;
+  width:100%
+
+}
+.value{
+  display:flex;
+ flex-direction:row;
+  background:rgb(232, 222, 222);
+  margin-top:10px;
+  padding:10px;
+  width:29%
+}
+.afya{
+  text-align:start;
+  margin-right:25px;
+  margin-top:10px
+}
+.digit{
+  background:white;
+  width:700px;
+  height:30px;
+  align-items:center;
+  text-align:center;
+  margin-top:"10px";
+  padding-top:10px;
+  font-size:18px
+}
+.button{ 
+  display:flex;
+  justify-content:space-between; 
+  margin-top:10px ;
+  width:30%;
+  margin-bottom:0px;
+  
+}
+.button-send{
+  color:white;
+  text-align:center;
+   border-radius:5px;
+   background:rgb(23, 116, 238);
+   border:none;
+   padding:10px 50px 10px 48px ; 
+
+}
+.button-receive{
+  text-align:center;
+  align-items:center;
+  color:white;
+  background:rgb(23, 116, 238);
+  border:none;
+  padding:10px 50px 10px 49px;
+  border-radius:5px;
+
+}
+.active{
+  color:white;
+  text-align:start;
+  font-weight:bold;
+  margin-left:8px
+
+}
+.activity-option{
+  display:flex;
+  justify-content:space-between;
+  flex-direction:row;
+  align-items:stretch;
+  border-bottom:2px solid black
+}
+.image-1{
+  align-items:start;
+  margin-top:5px;
+  margin-left:1px
+}
+
+
